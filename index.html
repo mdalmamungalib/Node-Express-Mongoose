@@ -1,0 +1,94 @@
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Cards</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .name {
+      font-size: 1.5em;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .email {
+      font-size: 1em;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .position {
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2 class="name">John Doe</h2>
+      <p class="email">johndoe@example.com</p>
+      <p class="position">Software Engineer</p>
+    </div>
+    <div class="card">
+      <h2 class="name">Jane Smith</h2>
+      <p class="email">janesmith@example.com</p>
+      <p class="position">Product Manager</p>
+    </div>
+    <div class="card">
+      <h2 class="name">Michael Brown</h2>
+      <p class="email">michaelbrown@example.com</p>
+      <p class="position">UI/UX Designer</p>
+    </div>
+    <div class="card">
+      <h2 class="name">Emily Johnson</h2>
+      <p class="email">emilyjohnson@example.com</p>
+      <p class="position">Marketing Specialist</p>
+    </div>
+    <div class="card">
+      <h2 class="name">Sarah Wilson</h2>
+      <p class="email">sarahwilson@example.com</p>
+      <p class="position">Data Analyst</p>
+    </div>
+  </div>
+</body>
+</html>
+
+      

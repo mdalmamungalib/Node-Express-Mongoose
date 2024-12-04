@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Understanding JavaScript Closures",
+      "content": "Closures are one of the most powerful features of JavaScript, allowing functions to retain access to their scope even when executed outside their original context.",
+      "author": "John Doe",
+      "date": "2024-12-02"
+    },
+    {
+      "id": 2,
+      "title": "A Guide to Responsive Web Design",
+      "content": "Responsive web design ensures that your website looks great on all devices, from desktops to mobile phones, by using flexible layouts and media queries.",
+      "author": "Jane Smith",
+      "date": "2024-11-30"
+    },
+    {
+      "id": 3,
+      "title": "Introduction to React Hooks",
+      "content": "React Hooks provide a way to use state and lifecycle features in functional components, making your code more concise and easier to manage.",
+      "author": "Emily Johnson",
+      "date": "2024-12-01"
+    },
+    {
+      "id": 4,
+      "title": "The Basics of Node.js",
+      "content": "Node.js is a runtime environment for executing JavaScript on the server side, enabling you to build fast and scalable network applications.",
+      "author": "Michael Brown",
+      "date": "2024-12-01"
+    },
+    {
+      "id": 5,
+      "title": "How to Use Git Effectively",
+      "content": "Git is a powerful version control system. Learn the essential commands and workflows to manage your codebase efficiently.",
+      "author": "Sarah Wilson",
+      "date": "2024-12-02"
+    }
+  ]
+  
